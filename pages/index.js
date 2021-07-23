@@ -3,8 +3,8 @@ return <iframe src="https://discord.com/widget?id=734919074961817610&theme=dark"
 }
 export default Teste
 
-function cu(){
-    return <h3>teste3</h3>
-}
+function Teste2(){
 
-export default cu
+    return <p>Teste de paragrafo</p>
+}
+export default Teste2
