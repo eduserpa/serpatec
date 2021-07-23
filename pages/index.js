@@ -1,6 +1,4 @@
-import './components/index.css'
-import React from 'react'
-import ReactDOM from 'react-dom'
+import './components/style.css'
 
 function Home(){
     return <div>Home</div>
