@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import styles from './sidebar.module.css'
+import styles from './style/sidebar.module.css'
 
 export default function Sidebar() {
   return (
@@ -11,7 +11,7 @@ export default function Sidebar() {
       <Link href="/Users">
         <a>Usuários</a>
       </Link>
-      <Link href="/waves">
+      <Link href="/Clouds">
         <a>Núvens</a>
       </Link>
     </nav>
