@@ -1,5 +1,5 @@
 import React from 'react'
-import wavesWidget from '../components/waves.widget'
+import Waves from '../components/waves'
 import styles from './styles/Clouds.module.css'
 
 
@@ -8,7 +8,7 @@ export default function Clouds(){}
 
 Clouds.getLayout = function getLayout(page) {
   return (
-    <wavesWidget></wavesWidget>
+    <Waves></Waves>
   )
 }
 
