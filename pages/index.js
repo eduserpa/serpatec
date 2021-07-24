@@ -1,21 +1,13 @@
 import Layout from '../components/layout'
 import Sidebar from '../components/sidebar'
+import Head from 'next/head'
 
-export default function Index() {
+export default function Home() {
   return (
-    <section>
-      <h2>Bem Vindo!!!</h2>
-    </section>
-  )
+    <div className="container">
+      <Head>
+        <title>Create Next App</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+  )    
 }
-
-Index.getLayout = function getLayout(page) {
-    return (
-      <Layout>
-        <Sidebar />
-        {page}
-      </Layout>
-    )
-  }
-
- 
